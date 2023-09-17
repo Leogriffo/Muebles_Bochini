@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Phudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
+
+
+img{
+    width: 100%;
+    height: 20%;
+    opacity: 0.6;
+}
+
+.titulo{
+    font-size: 7rem;
+    font-family: 'Khand', sans-serif;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: -60rem;
+    color: rgba(0, 0, 0, 0.918);
+}
+
+.subtitulo{
+    font-size: 3rem;
+    
+    margin-top: 20rem;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: flex-start;
+    position: relative;
+    text-align: start;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    img{
+        width: 100%;
+        height: 30rem;
+        opacity: 0.6;
+    }
+    .titulo{
+        font-size: 1.8rem;
+        justify-content: flex-start;
+        position: relative;;
+        margin-top: -21rem;
+    }
+
+    .subtitulo{
+        font-size: 0.9rem;
+        justify-content: flex-start;
+        position: relative;;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 4rem;
+        justify-content: flex-start;
+        text-align: start;
+    }
+}
